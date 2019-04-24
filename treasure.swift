@@ -8,5 +8,3 @@ func raju() {
     moveForward()
     toggleSwitch()
 }
-
-#this is apple code
