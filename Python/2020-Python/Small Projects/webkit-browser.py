@@ -1,10 +1,10 @@
 import sys
 
-from PyQt4.QtGui import QApplication, QTableWidget, QTableWidgetItem
-from PyQt4.QtCore import QUrl
-from PyQt4.QtWebKit import QWebView, QWebPage
-from PyQt4.QtGui import QGridLayout, QLineEdit, QWidget, QHeaderView
-from PyQt4.QtNetwork import QNetworkAccessManager, QNetworkRequest
+from PyQt5.QtGui import QApplication, QTableWidget, QTableWidgetItem
+from PyQt5.QtCore import QUrl
+from PyQt5.QtWebKit import QWebView, QWebPage
+from PyQt5.QtGui import QGridLayout, QLineEdit, QWidget, QHeaderView
+from PyQt5.QtNetwork import QNetworkAccessManager, QNetworkRequest
 
 
 class UrlInput(QLineEdit):
