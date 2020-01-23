@@ -5,8 +5,9 @@ Gtk.main()
 def on_destroy(window):
     Gtk.main_quit()
 
-window.connect("destroy",on_destroy)
+window.set_title("Tarun's browser")
 window.add(webview)
-window.set_title("Tarun's Browser")
+window.connect("destroy", on_destroy)
+window.show_all()
 
 Gtk.main()
